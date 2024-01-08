@@ -2,8 +2,21 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@font-face {
+  font-family: 'Myriadpro';
+  src: url('./fonts/MYRIADPRO-REGULAR.OTF');
+}
 
 @font-face {
-    font-family: "Myriadpro";
-    src: url("./fonts/MYRIADPRO-REGULAR.OTF");
-  }
+  font-family: 'font-bold';
+  src: url('./fonts/MYRIADPRO-BOLD.OTF');
+}
+
+@font-face {
+  font-family: 'font-semiregular';
+  src: url('./fonts/MYRIADPRO-SEMIBOLD.OTF');
+}
+
+input[type='search']::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
